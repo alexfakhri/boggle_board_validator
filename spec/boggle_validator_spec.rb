@@ -41,7 +41,7 @@ describe BoggleValidator do
     end
 
     it 'returns false if the location given is on the board' do
-      expect(subject.on_board?(5, 5)).to eq false
+      expect(subject.on_board?(4, 4)).to eq false
     end
 
   end

@@ -25,7 +25,7 @@ class BoggleValidator
 
 
   def on_board?(row, col)
-    row.between?(0,@board.size) && col.between?(0,@board[0].size)
+    row.between?(0,@board.size - 1) && col.between?(0,@board[0].size - 1)
   end
 
   def check_letters?(letters, board, row, col)

@@ -42,13 +42,15 @@ $ BoggleValidator.new([["I", "L", "A", "W"], ["B", "N", "G", "E"], ["I", "U", "A
 ```
 Replace the board and the string to test different combinations.
 
-
 Task
 ----
 Write a function that determines whether a string is a valid guess on a
 Boggle board, as per the rules of Boggle. A Boggle board is a 2D array of individual characters (example below).
 
-[ ["I","L","A","W"], ["B","N","G","E"], ["I","U","A","O"], ["A","S","R","L"] ]
+[["I","L","A","W"]
+ ["B","N","G","E"],
+ ["I","U","A","O"],
+ ["A","S","R","L"]]
 
 Valid guesses are strings which can be formed by connecting adjacent cells (horizontally, vertically, or diagonally) without re-using any previously used cells.
 
